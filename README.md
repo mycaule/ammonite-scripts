@@ -1,4 +1,4 @@
-### Ammonite scripts
+### Scala scripts
 
 A list of useful Scala snippets using [Ammonite](http://ammonite.io) as a runner.
 
