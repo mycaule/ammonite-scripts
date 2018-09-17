@@ -7,23 +7,19 @@ A list of useful Scala snippets using [Ammonite](http://ammonite.io) as a runner
 - Scala
 - Ammonite
 
-#### Hello World
+#### JSON
 
-```
-$ ./HelloWorld.sc
-```
+[Circe](CirceParser.sc)
 
-#### HTTP Server
+#### HTTP
 
-```
-$ ./HttpServer.sc
-```
+- Server: [Akka HTTP](HttpServer-AkkaHTTP.sc), [Play](HttpServer-Play.sc)
+- Client: [sttp](HttpClient-sttp.sc), [requests](HttpClient-requests.sc)
 
-#### HTTP Client
+#### Databases
 
-```
-$ ./HttpClient.sc
-```
+- RethinkDB: [RethinkDB](RethinkDBClient.sc)
+- RocksDB: [RocksDB](RocksDBClient.sc)
 
 #### References
 
